@@ -11,16 +11,16 @@ const Experience = (props: Props) => {
       <Title title="Experience" titleNumber="03." />
       <div className="flex flex-col justify-center gap-10">
         <p>
-          Unfortunately I don't have any experience as of now. But here are some certifications that I currently have :
+          Unfortunately I don&apos;t have any experience as of now. But here are some certifications that I currently have :
         </p>
         <div className="flex flex-col xl:flex-row justify-between items-center gap-10">
           <div className="flex flex-col gap-5">
             <p className="flex justify-center">Fullstack Developer Bootcamp</p>
-            <Image className="w-full h-80" src={s1} alt="" />
+            <Image className="w-full h-80" src={s1} alt="s1" />
           </div>
           <div className="flex flex-col gap-5">
             <p className="flex justify-center">Google IT Support Professional Certificate</p>
-            <Image className="w-full h-80" src={s2} alt="" />
+            <Image className="w-full h-80" src={s2} alt="s2" />
           </div>
         </div>
       </div>
