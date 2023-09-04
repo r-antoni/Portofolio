@@ -30,12 +30,12 @@ const Project3 = (props: Props) => {
         </ul>
         <div className="flex gap-5">
           <a href="https://github.com/R-Antoni" target="_blank">
-            <span className="flex justify-center items-center hover:text-tertiary hover:-translate-y-2 transition-all duration-300">
+            <span className="flex justify-center items-center hover:text-greentext transition-all duration-300">
               <SlSocialGithub size={20} />
             </span>
           </a>
           <a href="">
-            <span className="flex justify-center items-center hover:text-tertiary hover:-translate-y-2 transition-all duration-300">
+            <span className="flex justify-center items-center hover:text-greentext transition-all duration-300">
               <IoShareSocialOutline size={20} />
             </span>
           </a>

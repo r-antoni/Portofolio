@@ -8,7 +8,7 @@ import {FaBarsStaggered} from "react-icons/fa6";
 
 const Header = () => {
   return (
-    <div className="w-full h-20 sticky top-0 xl:top-5 z-50 bg-background shadow-2xl xl:shadow-none xl:bg-transparent mb-10">
+    <div className="w-full h-20 sticky top-0 xl:top-5 z-[60] bg-background shadow-2xl xl:shadow-none xl:bg-transparent mb-10">
       <div className="flex justify-between items-center mx-auto md:max-w-[96%] h-full">
         <motion.div
           initial={{
@@ -24,7 +24,7 @@ const Header = () => {
           transition={{
             duration: 1.5,
           }}
-          className="w-32"
+          className="w-40"
         >
           <Link href="#home">
             <Image src={logo} alt="logo" />
