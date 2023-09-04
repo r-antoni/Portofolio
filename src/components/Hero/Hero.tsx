@@ -16,7 +16,7 @@ export default function Hero() {
   return (
     <section
       id="home"
-      className="flex flex-col justify-center items-center max-w-7xl mx-auto h-[85%] lg:h-screen text-center text-white snap-center"
+      className="flex flex-col justify-center items-center max-w-7xl mx-auto h-[80%] lg:h-screen text-center text-white snap-center"
     >
       <BackgroundCircles />
       <motion.div
@@ -33,7 +33,7 @@ export default function Hero() {
         }}
         className="flex flex-col justify-center items-center gap-5"
       >
-        <Image src={profile} alt="profile" width={200} height={200} />
+        <Image src={profile} alt="profile" loading="eager" className="rounded-full w-60 h-60 mb-5"/>
         <div className="flex flex-col gap-10">
           <h2 className="text-sm text-gray-400 uppercase tracking-[10px]">Software Engineer</h2>
           <h1 className="text-2xl lg:text-4xl font-semibold px-10">
