@@ -6,7 +6,7 @@ import Skills from "./components/Skills";
 
 const About = () => {
   return (
-    <section id="about" className="flex flex-col mx-auto py-10 lg:py-32 px-10 gap-10 max-w-5xl">
+    <section id="about" className="flex flex-col mx-auto py-10 lg:py-32 px-10 gap-10 max-w-6xl">
       <Title titleNumber="01." title="About Me" />
       <div className="flex flex-col lg:flex-row gap-10">
         <Detail />

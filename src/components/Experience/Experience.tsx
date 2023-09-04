@@ -5,7 +5,7 @@ import Certification from "./components/Certification";
 
 const Experience = () => {
   return (
-    <section id="experience" className="max-w-5xl py-20 xl:py-32 flex flex-col gap-5 tracking-wide px-5">
+    <section id="experience" className="max-w-6xl py-20 xl:py-32 flex flex-col gap-5 tracking-wide px-5">
       <Title title="Experience" titleNumber="03." />
       <div className="flex flex-col justify-center gap-10">
         <p className="text-body">

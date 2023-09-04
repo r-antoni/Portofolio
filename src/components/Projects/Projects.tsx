@@ -7,7 +7,7 @@ import Project3 from "./components/Project3";
 
 const Projects = () => {
   return (
-    <section id="projects" className="max-w-5xl mx-auto px-5 py-32">
+    <section id="projects" className="max-w-6xl mx-auto px-5 py-32">
       <Title title="Things that I have Built" titleNumber="02." />
       <div className="flex flex-col justify-center items-center w-full gap-20 mt-10">
         <Project1 />
