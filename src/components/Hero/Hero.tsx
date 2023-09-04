@@ -7,9 +7,7 @@ import {profile} from "../../../public/assets/index";
 import {motion} from "framer-motion";
 import Links from "./components/Links";
 
-type Props = {};
-
-export default function Hero({}: Props) {
+export default function Hero() {
   const [text] = useTypewriter({
     words: ["Hi, I'm Reindra Antoni", "< Fullstack Dev />", "< Web3 Enthusiast />"],
     loop: true,
@@ -57,7 +55,7 @@ export default function Hero({}: Props) {
         transition={{
           duration: 1.5,
         }}
-        className=" hidden md:flex items-center z-50 pt-10 lg:pt-20 gap-5 text-xs lg:text-sm"
+        className=" hidden md:flex items-center z-50 pt-10 gap-5 text-xs lg:text-sm"
       >
         <Links section="#about" text="about" />
         <Links section="#projects" text="projects" />

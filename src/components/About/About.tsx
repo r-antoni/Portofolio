@@ -1,13 +1,10 @@
-import Image from "next/image";
 import React from "react";
 import Title from "../Shared/Title";
 import Detail from "./components/Detail";
 import Pic from "./components/Pic";
 import Skills from "./components/Skills";
 
-type Props = {};
-
-const About = (props: Props) => {
+const About = () => {
   return (
     <section id="about" className="flex flex-col mx-auto py-10 lg:py-32 px-10 gap-10 max-w-5xl">
       <Title titleNumber="01." title="About Me" />

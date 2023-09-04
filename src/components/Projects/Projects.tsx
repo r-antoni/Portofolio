@@ -5,9 +5,7 @@ import Project1 from "./components/Project1";
 import Project2 from "./components/Project2";
 import Project3 from "./components/Project3";
 
-type Props = {};
-
-const Projects = (props: Props) => {
+const Projects = () => {
   return (
     <section id="projects" className="max-w-5xl mx-auto px-5 py-32">
       <Title title="Things that I have Built" titleNumber="02." />

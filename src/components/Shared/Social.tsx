@@ -1,13 +1,10 @@
 "use client";
-import Link from "next/link";
 import React from "react";
 import {MdWhatsapp} from "react-icons/md";
 import {SlSocialGithub, SlSocialLinkedin, SlSocialTwitter} from "react-icons/sl";
 import {motion} from "framer-motion";
 
-type Props = {};
-
-const Social = (props: Props) => {
+const Social = () => {
   return (
     <motion.div
       initial={{

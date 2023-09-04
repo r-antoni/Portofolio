@@ -2,9 +2,7 @@
 import React from "react";
 import {motion} from "framer-motion";
 
-type Props = {};
-
-const Email = (props: Props) => {
+const Email = () => {
   return (
     <motion.div
       initial={{

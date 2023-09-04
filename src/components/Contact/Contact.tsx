@@ -2,12 +2,9 @@
 import React from "react";
 import BackgroundCircles from "../Shared/BackgroundCircles";
 import HelloButton from "./components/HelloButton";
-import Social from "./components/Social";
 import Text from "./components/Text";
 
-type Props = {};
-
-const Contact = (props: Props) => {
+const Contact = () => {
   return (
     <section
       id="contact"

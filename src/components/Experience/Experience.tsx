@@ -3,9 +3,7 @@ import Title from "../Shared/Title";
 import {s1, s2} from "../../../public/assets";
 import Certification from "./components/Certification";
 
-type Props = {};
-
-const Experience = (props: Props) => {
+const Experience = () => {
   return (
     <section id="experience" className="max-w-5xl py-20 xl:py-32 flex flex-col gap-5 tracking-wide px-5">
       <Title title="Experience" titleNumber="03." />
