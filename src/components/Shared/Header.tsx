@@ -1,7 +1,7 @@
 "use client";
 import Image from "next/image";
 import React from "react";
-import {logo} from "../../public/assets";
+import {logo} from "../../../public/assets";
 import {motion} from "framer-motion";
 import {SocialIcon} from "react-social-icons";
 import Link from "next/link";

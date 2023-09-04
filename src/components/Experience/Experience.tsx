@@ -1,27 +1,21 @@
 import React from "react";
 import Title from "../Shared/Title";
-import Image from "next/image";
 import {s1, s2} from "../../../public/assets";
+import Certification from "./components/Certification";
 
 type Props = {};
 
 const Experience = (props: Props) => {
   return (
-    <section id="experience" className="max-w-6xl py-20 xl:py-40 flex flex-col gap-5 tracking-wide px-5">
+    <section id="experience" className="max-w-5xl py-20 xl:py-32 flex flex-col gap-5 tracking-wide px-5">
       <Title title="Experience" titleNumber="03." />
       <div className="flex flex-col justify-center gap-10">
-        <p>
+        <p className="text-body">
           Unfortunately I don&apos;t have any experience as of now. But here are some certifications that I currently have :
         </p>
         <div className="flex flex-col xl:flex-row justify-between items-center gap-10">
-          <div className="flex flex-col gap-5">
-            <p className="flex justify-center">Fullstack Developer Bootcamp</p>
-            <Image className="w-full h-80" src={s1} alt="s1" />
-          </div>
-          <div className="flex flex-col gap-5">
-            <p className="flex justify-center">Google IT Support Professional Certificate</p>
-            <Image className="w-full h-80" src={s2} alt="s2" />
-          </div>
+          <Certification title="Fullstack Developer Bootcamp Certificate" src={s2} alt="Fullstack Developer Bootcamp Certificate Image"/>
+          <Certification title="Google IT Support Professional Certificate" src={s1} alt="Google IT Support Professional Certificate Image"/>
         </div>
       </div>
     </section>

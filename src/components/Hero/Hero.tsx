@@ -1,7 +1,7 @@
 "use client";
 import React from "react";
 import {Cursor, useTypewriter} from "react-simple-typewriter";
-import BackgroundCircles from "./components/BackgroundCircles";
+import BackgroundCircles from "../Shared/BackgroundCircles";
 import Image from "next/image";
 import {profile} from "../../../public/assets/index";
 import {motion} from "framer-motion";
@@ -11,14 +11,14 @@ type Props = {};
 
 export default function Hero({}: Props) {
   const [text] = useTypewriter({
-    words: ["Hi, I'm Reindra Antoni", "< Full-Stack Dev />", "< Web3 Enthusiast />"],
+    words: ["Hi, I'm Reindra Antoni", "< Fullstack Dev />", "< Web3 Enthusiast />"],
     loop: true,
     delaySpeed: 3000,
   });
   return (
     <section
       id="home"
-      className="flex flex-col justify-center items-center max-w-7xl mx-auto h-screen text-center text-white snap-center"
+      className="flex flex-col justify-center items-center max-w-7xl mx-auto h-[85%] lg:h-screen text-center text-white snap-center"
     >
       <BackgroundCircles />
       <motion.div
