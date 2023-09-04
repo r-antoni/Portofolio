@@ -1,4 +1,4 @@
-import Header from "@/components/Shared/Header";
+import Header from "@/components/Header/Header";
 import Social from "@/components/Shared/Social";
 import Email from "@/components/Shared/Email";
 import Hero from "@/components/Hero/Hero";
@@ -9,7 +9,7 @@ import Contact from "@/components/Contact/Contact";
 
 export default function Home() {
   return (
-    <div className="bg-background w-full h-screen text-white overflow-x-hidden overflow-y-scroll z-0">
+    <div className="z-0 bg-background w-full h-screen text-white overflow-x-hidden overflow-y-scroll scrollbar-thin scrollbar-track-container scrollbar-thumb-greentext">
       <Header />
       <div className="xl:flex justify-between items-center gap-20 w-full h-[88vh]">
         <div className="hidden xl:inline-flex w-40 h-full fixed left-5 bottom-0">

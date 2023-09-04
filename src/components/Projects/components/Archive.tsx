@@ -48,7 +48,7 @@ const Archive = (props: Props) => {
       </div>
       <div className="flex justify-center items-center py-10">
         <a href="https://github.com/R-Antoni" target="_blank">
-          <button className="flex items-center h-full gap-3 bg-gray-500 px-5 py-3 rounded-md hover:bg-tertiary duration-300">
+          <button className="flex items-center h-full gap-3 bg-container px-5 py-3 rounded-md hover:bg-greentext hover:text-background font-medium duration-300">
             More on Github <SlSocialGithub />
           </button>
         </a>

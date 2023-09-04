@@ -55,7 +55,7 @@ export default function Hero() {
         transition={{
           duration: 1.5,
         }}
-        className=" hidden md:flex items-center z-50 pt-10 gap-5 text-xs lg:text-sm"
+        className=" hidden md:flex items-center z-50 pt-14 gap-5 text-xs lg:text-sm"
       >
         <Links section="#about" text="about" />
         <Links section="#projects" text="projects" />
