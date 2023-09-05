@@ -9,7 +9,7 @@ const config: Config = {
   theme: {
     extend: {
       screens: {
-        xxl: "1440px"
+        xxl: "1440px",
       },
       colors: {
         background: "#1a1b26",

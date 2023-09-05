@@ -33,7 +33,7 @@ export default function Hero() {
         }}
         className="flex flex-col justify-center items-center gap-5"
       >
-        <Image src={profile} alt="profile" loading="eager" className="rounded-full w-60 h-60 mb-5"/>
+        <Image src={profile} alt="profile" loading="eager" className="rounded-full w-60 h-60 mb-5" />
         <div className="flex flex-col gap-10">
           <h2 className="text-sm text-gray-400 uppercase tracking-[10px]">Software Engineer</h2>
           <h1 className="text-3xl lg:text-4xl font-semibold px-10">
