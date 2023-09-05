@@ -19,7 +19,7 @@ const BackgroundCircles = (props: Props) => {
       className="relative flex justify-center items-center z-0"
     >
       <div className="absolute hidden md:inline-flex opacity-80 border-greentext border-2 rounded-full md:w-[350px] md:h-[350px] lg:w-[400px] lg:h-[400px] xxl:w-[450px] xxl:h-[450px] md:mt-[25rem] animate-ping" />
-      <div className="absolute hidden md:inline-flex opacity-20 border-greentext border-[3px] rounded-full md:w-[700px] md:h-[700px] lg:w-[800px] lg:h-[800px] xxl:w-[900px] xxl:h-[900px] md:mt-[25rem] animate-pulse" />
+      <div className="absolute hidden md:inline-flex opacity-20 border-greentext border-[3px] rounded-full md:w-[700px] md:h-[700px] lg:w-[800px] lg:h-[800px] xxl:w-[875px] xxl:h-[875px] md:mt-[25rem] animate-pulse" />
     </motion.div>
   );
 };
