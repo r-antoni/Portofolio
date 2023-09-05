@@ -48,7 +48,7 @@ const MobileNav = (props: Props) => {
             transition={{
               duration: 0.1,
             }}
-            className="relative flex flex-col items-center w-[75%] h-full overflow-y-hidden scrollbarHide bg-container px-5 py-10"
+            className="relative flex flex-col items-center w-[75%] h-full overflow-y-hidden scrollbarHide bg-gray-700 px-5 py-10"
           >
             <MdOutlineClose
               className="absolute text-2xl text-greentext hover:text-red-400 cursor-pointer top-5 right-5"

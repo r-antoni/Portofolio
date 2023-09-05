@@ -12,7 +12,7 @@ export default function Home() {
     <div className="z-0 bg-background w-full h-screen text-white overflow-x-hidden overflow-y-scroll scrollbar-thin scrollbar-track-container scrollbar-thumb-greentext">
       <Header />
       <div className="xl:flex justify-between items-center gap-20 w-full h-[88vh]">
-        <div className="hidden xl:inline-flex w-40 h-full fixed left-5 bottom-0">
+        <div className="hidden xxl:inline-flex w-40 h-full fixed left-5 bottom-0">
           <Social />
         </div>
         <div className="mx-auto h-screen">
@@ -22,7 +22,7 @@ export default function Home() {
           <Experience />
           <Contact />
         </div>
-        <div className="hidden xl:inline-flex w-40 h-full fixed right-5 bottom-0">
+        <div className="hidden xxl:inline-flex w-40 h-full fixed right-5 bottom-0">
           <Email />
         </div>
       </div>

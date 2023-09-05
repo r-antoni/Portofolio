@@ -16,7 +16,7 @@ export default function Hero() {
   return (
     <section
       id="home"
-      className="flex flex-col justify-center items-center max-w-7xl mx-auto h-[80%] lg:h-screen text-center text-white snap-center"
+      className="flex flex-col justify-center items-center max-w-7xl mx-auto h-[80%] lg:h-[90%] xxl:h-screen text-center text-white snap-center"
     >
       <BackgroundCircles />
       <motion.div
@@ -36,7 +36,7 @@ export default function Hero() {
         <Image src={profile} alt="profile" loading="eager" className="rounded-full w-60 h-60 mb-5"/>
         <div className="flex flex-col gap-10">
           <h2 className="text-sm text-gray-400 uppercase tracking-[10px]">Software Engineer</h2>
-          <h1 className="text-2xl lg:text-4xl font-semibold px-10">
+          <h1 className="text-3xl lg:text-4xl font-semibold px-10">
             <span>{text}</span>
             <Cursor cursorColor="green" />
           </h1>
@@ -55,7 +55,7 @@ export default function Hero() {
         transition={{
           duration: 1.5,
         }}
-        className=" hidden md:flex items-center z-50 pt-14 gap-5 text-xs lg:text-sm"
+        className=" hidden md:flex items-center z-50 pt-8 xl:pt-12 gap-5 text-xs lg:text-sm"
       >
         <Links section="#about" text="about" />
         <Links section="#projects" text="projects" />

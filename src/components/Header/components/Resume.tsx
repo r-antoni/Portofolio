@@ -21,7 +21,7 @@ const Resume = (props: Props) => {
       }}
       className="hidden md:flex items-end"
     >
-      <button className="border border-greentext md:px-5 md:text-sm lg:px-7 py-2 lg:py-3 font-semibold rounded hover:bg-greentext hover:text-background">
+      <button className="bg-container  md:px-5 md:text-sm lg:px-7 py-2 lg:py-3 font-semibold rounded hover:bg-greentext hover:text-background">
         Resume
       </button>
     </motion.div>
