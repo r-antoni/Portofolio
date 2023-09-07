@@ -16,25 +16,23 @@ const Project1 = (props: Props) => {
       </a>
       <div className="w-full xl:w-1/2 flex flex-col lg:justify-between items-center xl:items-end text-right xl:-ml-16 gap-5 z-10">
         <p className="text-greentext text-sm tracking-widest">Featured Project</p>
-        <h3 className="text-2xl font-bold">Project 1</h3>
+        <h3 className="text-2xl font-bold">Attendify</h3>
         <p className="bg-container text-sm md:text-base p-2 md:p-6 rounded-md text-center">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis aspernatur, sequi sint voluptate saepe
-          ipsum, amet vitae pariatur perspiciatis fugiat odit, beatae laboriosam! Omnis optio inventore laboriosam quae
-          eos dolorem?
+          Attendify is an attendance management app with role based authorization, that also have a role based functionality. At its core Attendify is a simple CRUD app with a main purpose as an activity management and monitoring tool.
         </p>
         <ul className="flex text-xs md:text-sm tracking-widest gap-5 text-container">
           <li>React</li>
-          <li>Node.js</li>
+          <li>Express.js</li>
           <li>MySQL</li>
           <li>Netlify</li>
         </ul>
         <div className="flex gap-5">
-          <a href="https://github.com/R-Antoni" target="_blank">
+          <a href="https://github.com/r-antoni/Attendify" target="_blank">
             <span className="flex justify-center items-center hover:text-greentext transition-all duration-300">
               <SlSocialGithub size={20} />
             </span>
           </a>
-          <a href="">
+          <a href="https://attendify.netlify.app/dashboard">
             <span className="flex justify-center items-center hover:text-greentext transition-all duration-300">
               <IoShareSocialOutline size={20} />
             </span>
