@@ -16,15 +16,13 @@ const Project3 = (props: Props) => {
       </a>
       <div className="w-full xl:w-1/2 flex flex-col lg:justify-between items-center xl:items-end text-right xl:-ml-16 gap-5 z-10">
         <p className="text-greentext text-sm tracking-widest">Featured Project</p>
-        <h3 className="text-2xl font-bold">Crypto Hub</h3>
+        <h3 className="text-2xl font-bold">CryptoHub</h3>
         <p className="bg-container text-sm md:text-base p-2 md:p-6 rounded-md text-center">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis aspernatur, sequi sint voluptate saepe
-          ipsum, amet vitae pariatur perspiciatis fugiat odit, beatae laboriosam! Omnis optio inventore laboriosam quae
-          eos dolorem?
+          CryptoHub is a cryptocurrency multi-app with price tracker, decentralized exchange and more features to be added in the future. The tracker is using data from Binance API. It is still under development 
         </p>
         <ul className="flex text-xs md:text-sm tracking-widest gap-5 text-gray-500">
-          <li>React</li>
-          <li>Express.js</li>
+          <li>Next.js</li>
+          <li>TailwindCSS</li>
           <li>Vercel</li>
         </ul>
         <div className="flex gap-5">

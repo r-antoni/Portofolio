@@ -1,5 +1,4 @@
-import icon from "./images/icon.jpg";
-import logo from "./images/logo.png";
+import logo from "./images/Logo.svg";
 import profile from "./images/profile.jpg";
 import p1 from "./images/p1.png";
 import p2 from "./images/p2.png";
@@ -16,4 +15,4 @@ import nodejs from "./images/node.svg";
 import netlify from "./images/netlify.svg";
 import git from "./images/git.svg";
 
-export {icon, logo, profile, p1, p2, p3, s1, s2, js, react, next, ts, tailwind, vite, nodejs, netlify, git};
+export { logo, profile, p1, p2, p3, s1, s2, js, react, next, ts, tailwind, vite, nodejs, netlify, git};

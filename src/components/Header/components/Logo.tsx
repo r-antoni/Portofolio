@@ -22,10 +22,10 @@ const Logo = (props: Props) => {
       transition={{
         duration: 1.5,
       }}
-      className="flex items-center w-24 md:w-28 lg:w-40 h-full"
+      className="flex items-center py-2 px-12 w-32 lg:w-36 h-full"
     >
       <Link href="#home">
-        <Image src={logo} alt="logo" />
+        <Image src={logo} alt="logo"/>
       </Link>
     </motion.div>
   );
