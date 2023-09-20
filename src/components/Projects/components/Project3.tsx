@@ -9,7 +9,7 @@ type Props = {};
 const Project3 = (props: Props) => {
   return (
     <div className="flex flex-col xl:flex-row gap-5 pb-10">
-      <a className="w-full xl:w-1/2 h-auto relative group" href="" target="_blank">
+      <a className="w-full xl:w-1/2 h-auto relative group" href="https://cryptohub123.netlify.app" target="_blank">
         <div>
           <Image src={p3} alt="project-3" className="rounded-lg h-full w-full" />
         </div>
@@ -26,12 +26,12 @@ const Project3 = (props: Props) => {
           <li>Vercel</li>
         </ul>
         <div className="flex gap-5">
-          <a href="https://github.com/R-Antoni" target="_blank">
+          <a href="https://github.com/r-antoni/CryptoHub" target="_blank">
             <span className="flex justify-center items-center hover:text-greentext transition-all duration-300">
               <SlSocialGithub size={20} />
             </span>
           </a>
-          <a href="">
+          <a href="https://cryptohub123.netlify.app">
             <span className="flex justify-center items-center hover:text-greentext transition-all duration-300">
               <IoShareSocialOutline size={20} />
             </span>

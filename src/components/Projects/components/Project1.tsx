@@ -9,7 +9,7 @@ type Props = {};
 const Project1 = (props: Props) => {
   return (
     <div className="flex flex-col xl:flex-row gap-5 pb-10">
-      <a className="w-full xl:w-1/2 h-auto relative group" href="https://github.com/r-antoni/Attendify-Frontend" target="_blank">
+      <a className="w-full xl:w-1/2 h-auto relative group" href="https://attendify.netlify.app" target="_blank">
         <div>
           <Image src={p1} alt="attendify" className="rounded-lg h-full w-full" />
         </div>
@@ -33,7 +33,7 @@ const Project1 = (props: Props) => {
               <SlSocialGithub size={20} />
             </span>
           </a>
-          <a href="https://attendify.netlify.app/dashboard">
+          <a href="https://attendify.netlify.app">
             <span className="flex justify-center items-center hover:text-greentext transition-all duration-300">
               <IoShareSocialOutline size={20} />
             </span>
