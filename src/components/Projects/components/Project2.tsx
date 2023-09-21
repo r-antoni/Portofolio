@@ -17,7 +17,7 @@ const Project2 = (props: Props) => {
         <p className="text-greentext text-sm tracking-widest">Featured Project</p>
         <h3 className="text-2xl font-bold">GlobeTix</h3>
         <p className="bg-container text-sm md:text-base p-2 md:p-6 rounded-md text-center">
-          GlobeTix is a fullstack travel booking website, with several destination to choose in Indonesia. It is created using Next.js 13 with Next`&apos;`s app router and TailwindCSS, it`&apos;`s also using Stripe for payment checkout.
+          GlobeTix is a fullstack travel booking website, with several destination to choose in Indonesia. It is created using Next.js 13 with Next.js app router and TailwindCSS, it is also using Stripe for payment checkout.
         </p>
         <ul className="flex text-xs md:text-sm tracking-widest gap-5 text-container">
           <li>Next.js</li>
