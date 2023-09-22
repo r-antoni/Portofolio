@@ -15,13 +15,15 @@ const Experience = () => {
         <div className="flex flex-col xl:flex-row justify-between items-center gap-10">
           <Certification
             title="Fullstack Developer Bootcamp Certificate"
-            src={s2}
+            src={s1}
             alt="Fullstack Developer Bootcamp Certificate Image"
+            link="harisenin.com"
           />
           <Certification
             title="Google IT Support Professional Certificate"
-            src={s1}
+            src={s2}
             alt="Google IT Support Professional Certificate Image"
+            link="https://www.coursera.org/verify/professional-cert/7HTXKK8KUESA"
           />
         </div>
       </div>
