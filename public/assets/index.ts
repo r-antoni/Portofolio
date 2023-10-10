@@ -1,4 +1,4 @@
-import logo from "./images/Logo.svg";
+import logo from "./images/logo.svg";
 import profile from "./images/profile-pic.png";
 import casual from "./images/casual.jpg"
 import p1 from "./images/p1.png";
