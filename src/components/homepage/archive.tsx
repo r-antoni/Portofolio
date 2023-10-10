@@ -6,8 +6,8 @@ const Archive = () => {
     archiveWrapper: "max-w-7xl mx-auto mt-20",
     title: "flex justify-center w-full items-center text-2xl font-semibold",
     grid: "grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-10 mt-10 px-5 lg:px-10",
-    button: "flex justify-center items-center py-10"
-  }
+    button: "flex justify-center items-center py-10",
+  };
 
   return (
     <div className={styles.archiveWrapper}>
@@ -46,7 +46,7 @@ const Archive = () => {
       </div>
       <div className={styles.button}>
         <a href="https://github.com/R-Antoni" target="_blank">
-          <Button title="More on Github" textSize="text-xs"/>
+          <Button title="More on Github" textSize="text-xs" />
         </a>
       </div>
     </div>

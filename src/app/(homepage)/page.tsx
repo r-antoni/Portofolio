@@ -7,7 +7,6 @@ import Hero from "./components/hero";
 import Projects from "./components/projects";
 import Social from "./components/social";
 
-
 export default function Home() {
   const styles = {
     home: "z-0 bg-background w-full h-screen text-white overflow-x-hidden overflow-y-scroll scrollbar-thin scrollbar-track-container scrollbar-thumb-greentext",

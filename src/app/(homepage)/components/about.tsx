@@ -1,5 +1,3 @@
-
-
 import Profile from "@/components/homepage/profile";
 import Title from "@/components/shared/title";
 import Skills from "@/components/homepage/skills";

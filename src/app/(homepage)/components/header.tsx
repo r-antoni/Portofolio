@@ -4,9 +4,7 @@ import Logo from "@/components/shared/logo";
 import MobileNav from "@/components/homepage/mobile-nav";
 import Resume from "@/components/homepage/resume";
 
-type Props = {
-
-};
+type Props = {};
 
 const Header = (props: Props) => {
   return (

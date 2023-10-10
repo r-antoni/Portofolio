@@ -4,7 +4,7 @@ import Image from "next/image";
 import {Cursor, useTypewriter} from "react-simple-typewriter";
 import {motion} from "framer-motion";
 
-import { casual } from "../../../../public/assets";
+import {casual} from "../../../../public/assets";
 import BackgroundCircles from "@/components/shared/circle";
 import NavItem from "@/components/shared/nav-item";
 

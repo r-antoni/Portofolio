@@ -4,11 +4,11 @@ type Props = {
 };
 
 const Title = ({title, titleNumber}: Props) => {
-    const styles = {
-        title: "flex items-center text-2xl font-semibold py-10",
-        titleNumber: "text-greentext mr-2",
-        line: "hidden md:inline-flex md:w-60 xl:w-80 h-[.5px] bg-gray-500 ml-6"
-    }
+  const styles = {
+    title: "flex items-center text-2xl font-semibold py-10",
+    titleNumber: "text-greentext mr-2",
+    line: "hidden md:inline-flex md:w-60 xl:w-80 h-[.5px] bg-gray-500 ml-6",
+  };
 
   return (
     <h2 className={styles.title}>

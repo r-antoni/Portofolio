@@ -20,7 +20,7 @@ const Resume = () => {
       className="hidden md:flex items-end"
     >
       <a href="https://drive.google.com/file/d/17kAgFdCBvDCZXHWmfXzQf6p-jWKKRmLw/view?usp=sharing" target="_blank">
-        <Button title="Resume" textSize="text-sm"/>
+        <Button title="Resume" textSize="text-sm" />
       </a>
     </motion.div>
   );

@@ -24,7 +24,7 @@ const Logo = () => {
       className="flex items-center py-2 px-12 w-28 md:w-[120px] lg:w-32 h-full"
     >
       <Link href="#home">
-        <Image src={logo} alt="logo"/>
+        <Image src={logo} alt="logo" />
       </Link>
     </motion.div>
   );

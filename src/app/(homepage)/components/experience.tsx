@@ -1,5 +1,5 @@
 import Certification from "@/components/homepage/certification";
-import { s1, s2 } from "../../../../public/assets";
+import {s1, s2} from "../../../../public/assets";
 import Title from "@/components/shared/title";
 
 const Experience = () => {
@@ -8,8 +8,8 @@ const Experience = () => {
       <Title title="Experience" titleNumber="03." />
       <div className="flex flex-col justify-center gap-10">
         <p className="text-body">
-          Unfortunately I don&apos;t have any relevant experience as of now. But here are some certifications that I currently
-          have :
+          Unfortunately I don&apos;t have any relevant experience as of now. But here are some certifications that I
+          currently have :
         </p>
         <div className="flex flex-col xl:flex-row justify-between items-center gap-6">
           <Certification
