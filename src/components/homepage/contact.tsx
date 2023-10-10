@@ -1,8 +1,8 @@
 "use client";
 
-import Button from "@/components/shared/button";
-import BackgroundCircles from "@/components/shared/circle";
-import SocialItem from "@/components/shared/social-item";
+import Button from "../shared/button";
+import BackgroundCircles from "../shared/circle";
+import SocialItem from "../shared/social-item";
 
 const Contact = () => {
   return (
