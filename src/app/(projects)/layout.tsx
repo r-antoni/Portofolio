@@ -1,9 +1,8 @@
 "use client";
 
+import Button from "@/components/shared/button";
+import Logo from "@/components/shared/logo";
 import Link from "next/link";
-
-import Button from "../../components/shared/button";
-import Logo from "../../components/shared/logo";
 
 export default function ProjectLayout({children}: {children: React.ReactNode}) {
   return (

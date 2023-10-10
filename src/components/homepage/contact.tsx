@@ -1,8 +1,10 @@
 "use client";
 
-import Button from "../shared/button";
-import BackgroundCircles from "../shared/circle";
-import SocialItem from "../shared/social-item";
+import BackgroundCircles from "@/components/shared/circle";
+import Button from "@/components/shared/button";
+import SocialItem from "@/components/shared/social-item";
+
+
 
 const Contact = () => {
   return (
@@ -19,7 +21,7 @@ const Contact = () => {
           voluptas dicta.
         </p>
         <a href="https://www.linkedin.com/in/reindra-bachtiar-antoni/" target="_blank" className="py-5">
-          <Button title="Say Hello" textSize="text-base"></Button>
+          <Button title="Say Hello" textSize="text-base" />
         </a>
         <div className="hidden md:inline-flex xl:hidden justify-center items-center w-full py-12 gap-5 text-greentext">
           <SocialItem />
