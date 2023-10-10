@@ -3,7 +3,7 @@ import Image from "next/image";
 
 import {motion} from "framer-motion";
 
-import {logo} from "../../../public/assets";
+import {logo} from "../../../public/assets/index";
 
 const Logo = () => {
   return (

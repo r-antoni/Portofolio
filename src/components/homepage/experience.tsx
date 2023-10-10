@@ -1,5 +1,5 @@
 import Certification from "@/components/homepage/certification";
-import {s1, s2} from "../../../../public/assets";
+import {s1, s2} from "../../../public/assets/index";
 import Title from "@/components/shared/title";
 
 const Experience = () => {

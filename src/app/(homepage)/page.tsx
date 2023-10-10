@@ -1,11 +1,11 @@
-import About from "./components/about";
-import Contact from "./components/contact";
-import Email from "./components/email";
-import Experience from "./components/experience";
-import Header from "./components/header";
-import Hero from "./components/hero";
-import Projects from "./components/projects";
-import Social from "./components/social";
+import About from "../../components/homepage/about";
+import Contact from "../../components/homepage/contact";
+import Email from "../../components/homepage/email";
+import Experience from "../../components/homepage/experience";
+import Header from "../../components/homepage/header";
+import Hero from "../../components/homepage/hero";
+import Projects from "../../components/homepage/projects";
+import Social from "../../components/homepage/social";
 
 export default function Home() {
   const styles = {
