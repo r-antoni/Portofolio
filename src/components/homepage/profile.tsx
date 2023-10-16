@@ -21,15 +21,15 @@ const Profile = () => {
       <div className="flex flex-col text-body w-full lg:w-2/3 font-medium gap-10 text-base">
         <p>
           <span className={styles.importantDetail}>
-            I`&apos;`m a Software Engineer, specializing in fullstack web development technologies.
+            I&apos;m a Software Engineer, specializing in fullstack web development technologies.
           </span>{" "}
-          I`&apos;`m based in Bandung, Indonesia and have a strong interest in exploring latest fullstack{" "}
+          I&apos;m based in Bandung, Indonesia and have a strong interest in exploring latest fullstack{" "}
           <span>Tech Stack</span> like React JS, Next JS, Node JS and MySQL. I often dedicate hours each day into
           learning more about the latest technologies that i could work with, and deepens my skill on the one that I
           already used.
         </p>
         <p>
-          You can check out some of <span className={styles.importantDetail}>My Work</span> below. I`&apos;`m passionate
+          You can check out some of <span className={styles.importantDetail}>My Work</span> below. I&apos;m passionate
           about research, analysis and ensuring code quality. I take immense pride in my work and have a deep love for
           the code I create. I always prioritizing readability of my code until performance became a problem.
         </p>
@@ -38,7 +38,7 @@ const Profile = () => {
           <span className={styles.importantDetail}>
             <a href="">LinkedIn</a>
           </span>
-          . I`&apos;`d be happy to answer them.
+          . I&apos;d be happy to answer them.
         </p>
       </div>
       <div className={styles.imageWrapper}>
