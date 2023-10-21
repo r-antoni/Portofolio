@@ -16,7 +16,7 @@ const Projects = () => {
       <div className={styles.featured}>
         <AttendifyPreview />
         <GlobetixPreview />
-        <PurrfectPreview />
+        {/* <PurrfectPreview /> */}
       </div>
       <Archive />
     </section>
