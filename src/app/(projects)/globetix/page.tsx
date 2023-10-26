@@ -1,32 +1,32 @@
-import React from "react";
-import {p2} from "../../../../public/assets";
+"use client"
+
 import Image from "next/image";
+
+import { Carousel } from 'flowbite-react';
+
+import {p2} from "../../../../public/assets";
 import Button from "@/components/shared/button";
 
-type Props = {};
-
-const Globetix = (props: Props) => {
-  const styles = {
-    imageWrapper: "w-full xl:w-1/2 h-auto relative group",
-    image: " rounded-lg",
-    listItem: "flex items-center gap-3",
-    logo: "w-6 lg:w-8 rounded-lg",
-  };
-
+const Globetix = () => {
   return (
-    <>
-      <div className="relative flex flex-col lg:flex-row justify-start gap-20 min-h-screen py-20 px-20 text-white">
-        <div className={styles.imageWrapper}>
-          <Image src={p2} alt="Globetix" className={styles.image} />
-        </div>
-        <div className="flex flex-col w-full lg:w-1/2 justify-start gap-5">
-          <h2 className="text-2xl uppercase">Globetix</h2>
+<div className="flex flex-col pt-40 items-center w-full h-screen bg-background">
+      <div className='w-3/4 h-3/4 lg:w-1/2 lg:h-1/2'>
+        <Carousel className='' slideInterval={5000}>
+          <Image src={p2} alt="Globetix Preview" />
+          <Image src={p2} alt="Globetix Preview" />
+          <Image src={p2} alt="Globetix Preview" />
+          <Image src={p2} alt="Globetix Preview" />
+          <Image src={p2} alt="Globetix Preview" />
+        </Carousel>
+      </div>
+      <div className="flex flex-col w-full text-center lg:text-start lg:w-1/2 px-10 lg:px-0  lg:pt-10 gap-5 text-white">
+          <h2 className="text-2xl font-bold uppercase">Globetix</h2>
           <h4>
             Status: <Button title="In Progress" textSize="text-xs" />
           </h4>
-          <h3>Tech Stack:</h3>
-          <ul className="flex flex-col lg:flex-row gap-3">
-            <li>
+          <h3>Tech Stack</h3>
+          <ul className="flex lg:flex-row gap-3 justify-center lg:justify-start">
+          <li>
               <Button title="React JS" textSize="text-xs" />
             </li>
             <li>
@@ -46,18 +46,17 @@ const Globetix = (props: Props) => {
             </li>
           </ul>
           <p className="pt-5 pb-10">
-            GlobeTix is a fullstack travel booking website, with several destination to choose in Indonesia. It is
+             GlobeTix is a fullstack travel booking website, with several destination to choose in Indonesia. It is
             created using Next.js 13 with Next.js app router and TailwindCSS, it is also using Stripe for payment
             checkout.
           </p>
-          <div className="flex justify-center items-center">
-            <a href="https://globetix.vercel.app/">
+          <div className="flex justify-center items-center pb-5">
+          <a href="https://globetix.vercel.app/">
               <Button title="Visit Website" textSize="text-sm" />
             </a>
           </div>
         </div>
-      </div>
-    </>
+    </div>
   );
 };
 

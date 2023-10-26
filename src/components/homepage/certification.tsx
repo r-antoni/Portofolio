@@ -10,16 +10,20 @@ type Props = {
 };
 
 const Certification = ({title, src, alt, link}: Props) => {
+  const styles = {
+    title: "flex justify-center pb-5",
+    imageWrapper: "flex flex-col px-5 py-5 gap-3 bg-container rounded-lg",
+    image: "w-[450px] h-[250px]  rounded-lg",
+    link: "flex justify-center items-center py-5"
+  }
   return (
     <div>
-      <p className="flex justify-center pb-5">{title}</p>
-      <div className="flex flex-col px-5 py-5 gap-3 bg-container rounded-lg">
-        <a href={link} target="_blank">
-          <Image className="w-[600px] h-80 rounded-lg" src={src} alt={alt} />
-        </a>
+      <h3 className={styles.title}>{title}</h3>
+      <div className={styles.imageWrapper}>
+          <Image className={styles.image} src={src} alt={alt} />
       </div>
-      <a href={link} target="_blank" className="flex justify-center items-center py-5">
-        <Button title="Check" textSize="text-xs" />
+      <a href={link} target="_blank" className={styles.link}>
+        <Button title="View" textSize="text-xs" />
       </a>
     </div>
   );

@@ -16,9 +16,7 @@ const Contact = () => {
         </p>
         <h2 className="text-4xl font-semibold text-greentext">Get In Touch</h2>
         <p className="max-w-[600px] text-center text-body">
-          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Architecto nostrum accusamus at porro aliquam nisi
-          facilis tempora nihil adipisci? Totam omnis laudantium necessitatibus sint eligendi repudiandae, sunt quasi
-          voluptas dicta.
+          If you have any question or have an offer for me, feel free to contact me on any social media or through my email. You can also get in contact with me through LinkedIn
         </p>
         <a href="https://www.linkedin.com/in/reindra-bachtiar-antoni/" target="_blank" className="py-5">
           <Button title="Say Hello" textSize="text-base" />

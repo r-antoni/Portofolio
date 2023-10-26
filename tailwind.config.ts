@@ -5,6 +5,7 @@ const config: Config = {
     "./src/pages/**/*.{js,ts,jsx,tsx,mdx}",
     "./src/components/**/*.{js,ts,jsx,tsx,mdx}",
     "./src/app/**/*.{js,ts,jsx,tsx,mdx}",
+    'node_modules/flowbite-react/**/*.{js,jsx,ts,tsx}'
   ],
   theme: {
     extend: {
@@ -14,11 +15,11 @@ const config: Config = {
       colors: {
         background: "#1a1b26",
         greentext: "#59d1c2",
-        body: "#9CA3AF",
+        body: "#c6cad1",
         container: "#4B5563",
       },
     },
   },
-  plugins: [require("tailwind-scrollbar")],
+  plugins: [require("tailwind-scrollbar"), require('flowbite/plugin')],
 };
 export default config;

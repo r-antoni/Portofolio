@@ -18,7 +18,7 @@ export default function Hero() {
   const styles = {
     hero: "flex flex-col justify-center items-center max-w-7xl mx-auto h-[80%] lg:h-[90%] xxl:h-screen text-center text-white snap-start",
     contentWrapper: "flex flex-col justify-center items-center gap-5",
-    image: "rounded-full w-40 h-40 lg:w-56 lg:h-56 mb-8",
+    image: "rounded-full w-36 h-36 lg:w-52 lg:h-52 mb-5 lg:mb-10",
     content: "flex flex-col gap-5",
     title: "text-sm text-gray-400 uppercase tracking-[10px]",
     typewriter: "text-3xl lg:text-4xl font-semibold px-10",

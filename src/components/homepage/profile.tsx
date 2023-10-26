@@ -1,4 +1,8 @@
+"use client"
+
 import Image from "next/image";
+
+import { motion } from "framer-motion";
 
 import {profile} from "../../../public/assets";
 
@@ -17,8 +21,16 @@ const Profile = () => {
   };
 
   return (
-    <div className="flex flex-col lg:flex-row gap-20">
-      <div className="flex flex-col text-body w-full lg:w-2/3 font-medium gap-10 text-base">
+    <div className={styles.profileWrapper}>
+      <motion.div 
+      initial={{
+        x: -200,
+        opacity:0
+      }}
+      transition={{duration: 1.25}}
+      whileInView={{x:0, opacity:1}}
+      viewport={{once: true}}
+      className={styles.detail}>
         <p>
           <span className={styles.importantDetail}>
             I&apos;m a Software Engineer, specializing in fullstack web development technologies.
@@ -40,8 +52,16 @@ const Profile = () => {
           </span>
           . I&apos;d be happy to answer them.
         </p>
-      </div>
-      <div className={styles.imageWrapper}>
+      </motion.div>
+      <motion.div 
+      initial={{
+        x: 200,
+        opacity:0
+      }}
+      transition={{duration: 1.25}}
+      whileInView={{x:0, opacity:1}}
+      viewport={{once: true}}
+      className={styles.imageWrapper}>
         <div className={styles.imageFrameWrapper}>
           <div className={styles.imageFrame}>
             <Image src={profile} width={300} height={300} alt="profile" className="rounded-lg" />
@@ -49,7 +69,7 @@ const Profile = () => {
             <div className={styles.imageUnderline}></div>
           </div>
         </div>
-      </div>
+      </motion.div>
     </div>
   );
 };

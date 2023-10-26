@@ -1,5 +1,9 @@
+"use client"
+
 import Image from "next/image";
 import Link from "next/link";
+
+import { motion } from "framer-motion";
 
 import {p2} from "../../../public/assets";
 import Button from "../shared/button";
@@ -18,7 +22,15 @@ const GlobetixPreview = () => {
   };
 
   return (
-    <div className="flex flex-col xl:flex-row-reverse gap-5 pb-10">
+    <motion.div 
+    initial={{
+      x: -200,
+      opacity:0
+    }}
+    transition={{duration: 1.25}}
+    whileInView={{x:0, opacity:1}}
+    viewport={{once: true}}
+    className="flex flex-col xl:flex-row-reverse gap-5 pb-10">
       <Link href="/globetix" className={styles.imageWrapper}>
         <Image src={p2} alt="globetix" className={styles.image} />
       </Link>
@@ -35,7 +47,7 @@ const GlobetixPreview = () => {
           </Link>
         </div>
       </div>
-    </div>
+    </motion.div>
   );
 };
 

@@ -1,4 +1,7 @@
+"use client";
+
 import {motion} from "framer-motion";
+
 import Button from "../shared/button";
 
 const Resume = () => {
@@ -15,7 +18,7 @@ const Resume = () => {
         scale: 1,
       }}
       transition={{
-        duration: 1,
+        duration: 1.5,
       }}
       className="hidden md:flex items-end"
     >

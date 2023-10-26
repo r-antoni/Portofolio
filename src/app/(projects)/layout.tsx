@@ -6,14 +6,14 @@ import Link from "next/link";
 
 export default function ProjectLayout({children}: {children: React.ReactNode}) {
   return (
-    <div className="bg-background">
-      <div className="flex justify-between items-center w-full h-full py-4 pr-10 shadow">
+    <>
+      <div className="fixed top-0 flex justify-between items-center w-full h-20 bg-background py-3 pr-10 shadow-xl">
         <Logo />
         <Link href="/">
-          <Button title="Back" textSize="text-sm" />
+          <Button title="Home" textSize="text-sm" />
         </Link>
       </div>
       {children}
-    </div>
+    </>
   );
 }

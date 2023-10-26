@@ -1,5 +1,9 @@
+"use client"
+
 import Image from "next/image";
 import Link from "next/link";
+
+import { motion } from "framer-motion";
 
 import {p3} from "../../../public/assets";
 import Button from "../shared/button";
@@ -18,7 +22,15 @@ const PurrfectPreview = () => {
   };
 
   return (
-    <div className={styles.previewWrapper}>
+    <motion.div 
+    initial={{
+      x: 200,
+      opacity:0
+    }}
+    transition={{duration: 1.25}}
+    whileInView={{x:0, opacity:1}}
+    viewport={{once: true}}
+    className={styles.previewWrapper}>
       <Link href="/purrfect" className={styles.imageWrapper}>
         <Image src={p3} alt="purrfect-store" className={styles.image} />
       </Link>
@@ -35,7 +47,7 @@ const PurrfectPreview = () => {
           </Link>
         </div>
       </div>
-    </div>
+    </motion.div>
   );
 };
 
