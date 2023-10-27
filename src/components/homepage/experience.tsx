@@ -1,9 +1,5 @@
-"use client"
-
-import { motion } from "framer-motion";
-
+import {s1, s2} from "../../../public/assets/index"
 import Certification from "@/components/homepage/certification";
-import {s1, s2} from "../../../public/assets/index";
 import Title from "@/components/shared/title";
 
 const Experience = () => {
@@ -15,18 +11,7 @@ const Experience = () => {
           Unfortunately I don&apos;t have any relevant experience as of now. But here are some certifications that I
           currently have :
         </p>
-        <motion.div 
-         initial={{
-          scale: 0.75,
-          opacity: 0.5
-        }}
-        transition={{duration: 1.25}}
-        whileInView={{
-          scale: 1,
-          opacity:1
-        }}
-        viewport={{once: true}}
-        className="flex flex-col xl:flex-row justify-between items-center gap-6">
+        <div className="flex flex-col xl:flex-row justify-between items-center gap-6">
           <Certification
             title="Fullstack Developer Bootcamp Certificate"
             src={s1}
@@ -39,7 +24,7 @@ const Experience = () => {
             alt="Google IT Support Professional Certificate Image"
             link="https://www.coursera.org/verify/professional-cert/7HTXKK8KUESA"
           />
-        </motion.div>
+        </div>
       </div>
     </section>
   );

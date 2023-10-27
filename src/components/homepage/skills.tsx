@@ -1,8 +1,4 @@
-"use client"
-
 import Image from "next/image";
-
-import { motion } from "framer-motion";
 
 import {git, js, next, nodejs, react, tailwind, ts} from "../../../public/assets";
 
@@ -16,18 +12,7 @@ const Skills = () => {
   };
 
   return (
-    <motion.div 
-    initial={{
-      scale: 0.75,
-      opacity: 0.5
-    }}
-    transition={{duration: 1.25}}
-    whileInView={{
-      scale: 1,
-      opacity:1
-    }}
-    viewport={{once: true}}
-    className={styles.skillsWrapper}>
+    <div className={styles.skillsWrapper}>
       <p className={styles.text}>These are the the technologies that I have been working with recently:</p>
       <ul className={styles.skillList}>
         <li className={styles.listItem}>
@@ -59,7 +44,7 @@ const Skills = () => {
           Github
         </li>
       </ul>
-    </motion.div>
+    </div>
   );
 };
 

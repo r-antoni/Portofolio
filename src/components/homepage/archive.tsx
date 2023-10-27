@@ -1,7 +1,3 @@
-"use client"
-
-import { motion } from "framer-motion";
-
 import Button from "../shared/button";
 import ArchiveCard from "./archive-card";
 
@@ -14,18 +10,7 @@ const Archive = () => {
   };
 
   return (
-    <motion.div 
-    initial={{
-      scale: 0.75,
-      opacity: 0.5
-    }}
-    transition={{duration: 1.25}}
-    whileInView={{
-      scale: 1,
-      opacity:1
-    }}
-    viewport={{once: true}}
-    className={styles.archiveWrapper}>
+    <div className={styles.archiveWrapper}>
       <h2 className={styles.title}>Other Noteworthy Projects</h2>
       <div className={styles.grid}>
         <ArchiveCard
@@ -64,7 +49,7 @@ const Archive = () => {
           <Button title="More on Github" textSize="text-xs" />
         </a>
       </div>
-    </motion.div>
+    </div>
   );
 };
 
